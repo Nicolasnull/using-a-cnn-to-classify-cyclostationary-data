@@ -1,0 +1,128 @@
+output_files/28Nov21-16_38_38-crop_test_results:
+
+Size of datasets:
+Train Size: Total=802  Noise=391  RFI=411
+Test Size: Total=173  Noise=95  RFI=78
+Validate Size: Total=172  Noise=88  RFI=84
+
+MODEL:
+CNN(
+  (conv1): Conv2d(1, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (conv2): Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (fc1): Linear(in_features=65536, out_features=512, bias=True)
+  (fc2): Linear(in_features=512, out_features=2, bias=True)
+  (dropout): Dropout(p=0.25, inplace=False)
+)
+
+Device Used: cuda:0
+
+RESULTS:
+Epoch: 1 	Training Loss: 0.693945 	Validation Loss: 0.687348
+
+
+
+RESULTS:
+Epoch: 2 	Training Loss: 0.688583 	Validation Loss: 0.683165
+
+
+
+RESULTS:
+Epoch: 3 	Training Loss: 0.682752 	Validation Loss: 0.676637
+
+
+
+RESULTS:
+Epoch: 4 	Training Loss: 0.669516 	Validation Loss: 0.658381
+
+
+
+RESULTS:
+Epoch: 5 	Training Loss: 0.652491 	Validation Loss: 0.684628
+
+
+
+RESULTS:
+Epoch: 6 	Training Loss: 0.621084 	Validation Loss: 0.829263
+
+
+
+RESULTS:
+Epoch: 7 	Training Loss: 0.584465 	Validation Loss: 0.523751
+
+
+
+RESULTS:
+Epoch: 8 	Training Loss: 0.480475 	Validation Loss: 0.434507
+
+
+
+RESULTS:
+Epoch: 9 	Training Loss: 0.350474 	Validation Loss: 0.285037
+
+
+
+RESULTS:
+Epoch: 10 	Training Loss: 0.233411 	Validation Loss: 0.216582
+
+
+
+RESULTS:
+Epoch: 11 	Training Loss: 0.147675 	Validation Loss: 0.127460
+
+
+
+RESULTS:
+Epoch: 12 	Training Loss: 0.100117 	Validation Loss: 0.107761
+
+
+
+RESULTS:
+Epoch: 13 	Training Loss: 0.097561 	Validation Loss: 0.105916
+
+
+
+RESULTS:
+Epoch: 14 	Training Loss: 0.087305 	Validation Loss: 0.117732
+
+
+
+RESULTS:
+Epoch: 15 	Training Loss: 0.081885 	Validation Loss: 0.096312
+
+
+
+RESULTS:
+Epoch: 16 	Training Loss: 0.082547 	Validation Loss: 0.118433
+
+
+
+RESULTS:
+Epoch: 17 	Training Loss: 0.071406 	Validation Loss: 0.117784
+
+
+
+RESULTS:
+Epoch: 18 	Training Loss: 0.075554 	Validation Loss: 0.087243
+
+
+
+RESULTS:
+Epoch: 19 	Training Loss: 0.073727 	Validation Loss: 0.096750
+
+
+
+RESULTS:
+Epoch: 20 	Training Loss: 0.075978 	Validation Loss: 0.478688
+
+
+TIME TO TRAIN MODEL: 325.9813706999994
+
+RESULTS:
+Confusion Matrix:
+ [[38 57]
+ [ 0 78]]
+Accuracy Score: 0.6705202312138728
+f1 Score: 0.6705202312138728
+Test Loss: 0.571039743850686

@@ -1,0 +1,73 @@
+output_files/28Nov21-17_35_51-crop_test_results:
+
+Size of datasets:
+Train Size: Total=688  Noise=360  RFI=328
+Test Size: Total=230  Noise=106  RFI=124
+Validate Size: Total=229  Noise=108  RFI=121
+
+MODEL:
+CNN(
+  (conv1): Conv2d(1, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (conv2): Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (conv3): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (fc1): Linear(in_features=65536, out_features=512, bias=True)
+  (fc2): Linear(in_features=512, out_features=2, bias=True)
+  (dropout): Dropout(p=0.25, inplace=False)
+)
+
+Device Used: cuda:0
+
+RESULTS:
+Epoch: 1 	Training Loss: 0.695849 	Validation Loss: 0.691811
+
+
+
+RESULTS:
+Epoch: 2 	Training Loss: 0.685515 	Validation Loss: 0.681000
+
+
+
+RESULTS:
+Epoch: 3 	Training Loss: 0.678688 	Validation Loss: 0.693994
+
+
+
+RESULTS:
+Epoch: 4 	Training Loss: 0.660557 	Validation Loss: 0.652785
+
+
+
+RESULTS:
+Epoch: 5 	Training Loss: 0.641277 	Validation Loss: 0.602408
+
+
+
+RESULTS:
+Epoch: 6 	Training Loss: 0.600824 	Validation Loss: 0.600822
+
+
+
+RESULTS:
+Epoch: 7 	Training Loss: 0.519532 	Validation Loss: 0.435631
+
+
+
+RESULTS:
+Epoch: 8 	Training Loss: 0.428944 	Validation Loss: 0.338954
+
+
+
+RESULTS:
+Epoch: 9 	Training Loss: 0.333214 	Validation Loss: 0.232136
+
+
+TIME TO TRAIN MODEL: 132.67402749999746
+
+RESULTS:
+Confusion Matrix:
+ [[106   0]
+ [ 39  85]]
+Accuracy Score: 0.8304347826086956
+f1 Score: 0.8304347826086956
+Test Loss: 0.3411318118157594
