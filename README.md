@@ -1,6 +1,6 @@
 # Using a CNN to Classify Cyclostationary Data
 
-Contributors: <a src= "https://github.com/mtgilley">Matthew Gilley</a>,<a src= "https://github.com/John-Morgan11"> John Morgan</a>, and <a src="https://github.com/Nicolasnulland">Nicolas Null</a>
+Contributors: <a href= "https://github.com/mtgilley">Matthew Gilley</a>,<a href= "https://github.com/John-Morgan11"> John Morgan</a>, and <a href="https://github.com/Nicolasnulland">Nicolas Null</a>
 <br>
 Mentor: <a href="https://www.linkedin.com/in/sanishrai/">Dr. Sanish Rai</a>
 <br>
