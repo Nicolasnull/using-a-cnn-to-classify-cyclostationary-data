@@ -5,6 +5,8 @@ Contributors: <a href= "https://github.com/mtgilley">Matthew Gilley</a>,<a href=
 Mentor: <a href="https://www.linkedin.com/in/sanishrai/">Dr. Sanish Rai</a>
 <br>
 Original data provided by <a href="https://www.linkedin.com/in/ryan-lynch-82992179/">Dr. Ryan Lynch</a>. The data was taken at the <a href="https://greenbankobservatory.org/">Green Bank Observatory</a> on the GBT.
+<br>
+This project was published by IEEE and can be found <a href="https://ieeexplore.ieee.org/document/10025254?fbclid=IwAR2bpYhtLPI99QYcQLlVtTu8mJyDW-Xg4WYoGpVCO9JpT640hA0prOlPmo4/">here</a>.
 <hr>
 
 ## Overview
